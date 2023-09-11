@@ -106,6 +106,11 @@ Most of the API is available:
     client.broadcasts.get_round_pgns
     client.broadcasts.get_pgns
 
+    client.bulk_pairings.get_upcoming
+    client.bulk_pairings.create
+    client.bulk_pairings.start_clocks
+    client.bulk_pairings.cancel
+
     client.challenges.create
     client.challenges.create_ai
     client.challenges.create_open
@@ -114,6 +119,9 @@ Most of the API is available:
     client.challenges.decline
 
     client.explorer.get_lichess_games
+    client.explorer.get_masters_games
+    client.explorer.get_player_games
+    client.explorer.stream_player_games
 
     client.games.export
     client.games.export_ongoing_by_player
